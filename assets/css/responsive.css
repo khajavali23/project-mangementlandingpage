@@ -1,0 +1,487 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.fitgear-nav ul.navbar-nav li a {
+		font-size: 12px;
+	}
+	.faq-accordion {
+		max-width: 400px;
+		margin-left: auto;
+	}
+	.screenshots-carousel:after {
+		transform: translate(-50%, -54%) scale(0.74);
+	}
+	ul.pricing-card-list li {
+		font-size: 14px;
+	}
+	.fun-fact-area .section-title h3 {
+		font-size: 34px;
+	}
+	.single-counterup h2 {
+		font-size: 28px;
+	}
+	.single-counterup .sf-type {
+		font-size: 16px;
+	}
+	ul.s-image-box-list li a img {
+		height: 90px;
+		width: 90px;
+	}
+	ul.sidebar-tag-list li a {
+		padding: 6px 6px;
+		font-size: 12px;
+	}
+	ul.sidebar-tag-list li a {
+		padding: 6px 6px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.brca-img:before,
+	.brca-img:after {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	/* Navbar Dropdown On Hover */
+	.dropdown:hover>.dropdown-menu {
+		display: block;
+	}
+	.dropdown>.dropdown-toggle:active {
+		/*Without this, clicking will make it sticky*/
+		pointer-events: none;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.about-area {
+		background-color: #02033f;
+		padding: 50px 0px;
+		min-height: unset;
+		margin-bottom: 0px;
+	}
+	.download-app {
+		background-color: #02033f;
+		padding: 50px 0px;
+		min-height: unset;
+		margin: 0px auto;
+		background-size: cover;
+	}
+	.screentshots-area {
+		margin: 0px auto;
+	}
+	.customer-reviews {
+		padding: 50px 0px;
+	}
+	.fun-fact-area {
+		background-color: #02033f;
+		padding: 50px 0px;
+		min-height: unset;
+		margin: 0px auto;
+		background-size: cover;
+	}
+	.hero2-area {
+		margin-top: 0px;
+		background-color: #6a0fc2;
+		background-size: cover;
+	}
+	.download2-app {
+		background-color: #6a0fc2;
+		background-size: cover;
+	}
+	.hero3-area {
+		margin-top: 0px;
+		background-color: #9253c8;
+		background-size: cover;
+	}
+	.screentshots3-area {
+		background-color: #894fc5;
+		padding: 50px 0px;
+		background-size: cover;
+	}
+	.download3-app {
+		background-color: #894fc5;
+		padding: 50px 0px;
+		background-size: cover;
+	}
+	.about3-area {
+		background-size: cover;
+		margin: 0px auto;
+	}
+	.pricing3-area {
+		position: relative;
+		padding: 50px 0px;
+	}
+	.footer3-area {
+		background-color: #9b58cb;
+		background-size: cover;
+		padding: 0;
+	}
+	.blog3-area {
+		margin: 0 auto;
+		padding: 0px;
+	}
+	.customer3-reviews {
+		margin: 50px auto;
+	}
+		
+	.download-app .section-title {
+		margin-top: 0;
+	}
+	.navbar-collapse ul.navbar-nav {
+		text-align: center;
+		max-height: 500px;
+		overflow-y: scroll;
+	}
+	ul.download-app-btn {
+		padding: 0;
+		list-style-type: none;
+		position: relative;
+		text-align: center;
+	}
+	.fitgear-nav .navbar-collapse ul.navbar-nav li a {
+		background-color: #efefef;
+		margin: 2px auto;
+		text-align: center;
+	}
+	.fun-fact-area .section-title h3 {
+		font-size: 28px;
+		line-height: 40px;
+		margin: 0 auto;
+	}
+	.fitgear-nav ul.navbar-nav li a.get-app-now-btn {
+		display: none;
+	}
+	.hero-text {
+		text-align: center;
+	}
+	.hero-img {
+		text-align: center;
+		padding: 0;
+	}
+	.da-left {
+		text-align: center;
+	}
+	.faq-area {
+		width: 100%;
+		overflow: hidden;
+	}
+	.faq-video {
+		width: 100%;
+	}
+	.single-creview {
+		text-align: center;
+	}
+	.c-review-carousel .owl-nav {
+		display: none;
+	}
+	.faq-video {
+		margin-bottom: 80px;
+	}
+	.newsletter-form form>.input-group {
+		margin: 0 auto;
+	}
+	.footer-area {
+		padding-top: 25px;
+		margin-top: 0px;
+		text-align: center;
+		background-color: #02033f;
+	}
+	.blog-sidebar {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.error-img img {
+		max-width: 680px;
+		width: 100%;
+	}
+	.brct-img {
+		text-align: center;
+		position: relative;
+	}
+	.brct-img img {
+		margin: 25px auto;
+	}
+	.header2 .fitgear-nav .navbar-collapse ul.navbar-nav li a {
+		background-color: rgba(0, 0, 0, 0.45);
+	}
+	.wwa-text {
+		text-align: center;
+	}
+	.wwa-img {
+		text-align: center;
+		padding: 0;
+	}
+	.sfc {
+		text-align: center;
+		max-width: 300px;
+		margin: 40px auto;
+	}
+	.fc-left .sfc,
+	.fc-right .sfc {
+		text-align: center;
+	}
+	.features2-area {
+		background-color: #8413d8;
+	}
+	.single-pricing2 {
+		margin: 25px auto;
+	}
+	.download2-app .da-right {
+		text-align: center;
+	}
+	.single-creview2 .screview-text:before,
+	.single-creview2 .screview-text:after {
+		display: none;
+	}
+	.footer-left,
+	.footer-right {
+		text-align: center;
+	}
+	.customer2-reviews {
+		overflow: hidden;
+	}
+	.footer2-area {
+		background-color: #8413d8;
+	}
+	.innerpage1-breadcrumb {
+		padding-top: 140px;
+	}
+	.header-area {
+		position: fixed;
+		width: 100%;
+		z-index: 999;
+		background-color: #fff;
+	}
+	.hero-area {
+		position: relative;
+		overflow: hidden;
+		padding: 125px 0px;
+	}
+	.header2 {
+		background-color: transparent;
+	}
+	.header-3 {
+		background-color: transparent;
+	}
+	.header-3 .fitgear-nav .navbar-collapse ul.navbar-nav li a {
+		background-color: #a360ce;
+	}
+	.single-f3 {
+		text-align: center;
+	}
+	.hero3-text {
+		padding: 25px 0px;
+	}
+	.innerpage3-breadcrumb {
+		margin-top: 0px;
+	}
+	.service-area {
+		padding-top: 100px !important;
+	}
+	.single-creview3:after,
+	.single-creview3:before {
+		display: none;
+	}
+	.hero-content:after {
+		display: none;
+	}
+	.hero-img{
+		display: none;
+	}
+	.hero-area {
+		padding: 125px 0px 60px;
+	}
+	.da-left:after{
+		display: none;
+	}
+	.wwa-content:after {
+		display: none;
+	}
+	.download2-app:after {
+		display: none;
+	}
+	.hero3-img {
+		display: none;
+	}
+	.hero3-area {
+		min-height: unset;
+		padding-bottom: 50px;
+	}
+	.section-title3 {
+		text-align: center;
+	}
+	.section-title3 p:before {
+		display: none;
+	}
+	.wwa-text {
+		margin-bottom: 25px;
+	}
+	.faq-video:after {
+		display: none;
+	}
+	ul.download-app-btn li a {
+		width: 220px;
+		height: 70px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.sbp-text .sbp-date {
+		font-size: 14px;
+	}
+	.sbp-text p {
+		font-size: 16px;
+	}
+	.sbp-text a {
+		font-size: 12px;
+	}
+}
+
+
+/* Tablet Layout*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	.screenshots-carousel:after {
+		transform: translate(-50%, -54%) scale(0.67);
+	}
+}
+
+
+/* Mobile Layout*/
+
+@media only screen and (max-width: 767px) {
+	.section-title h3 {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	.section-title p {
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+	.section-title p:before,
+	.section-title p:after {
+		height: 1px;
+		top: 12px;
+	}
+	.hero-text h2 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.hero-text p {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	a.hero-btn {
+		font-size: 14px;
+		padding: 8px 12px;
+	}
+	.hero-img {
+		display: none;
+	}
+	.hero3-img {
+		display: none;
+	}
+	.hero-img img {
+		display: none;
+	}
+	.hero2-area {
+		min-height: unset;
+	}
+	
+	.about-text h4 {
+		margin: 20px auto;
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 300;
+	}
+	.about-text p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.fun-fact-area .section-title h3 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.breadcrumb-title h3 {
+		font-size: 26px;
+		line-height: 34px;
+	}
+	.app-features p, .da-right-text p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	ul.app-features-list li {
+		font-size: 14px;
+	}
+	.screenshots-slider {
+		margin: 0 auto;
+	}
+	.customer-review-slider {
+		margin: 0px auto;
+	}
+	.single-creview3 .screview-text p {
+		font-size: 16px;
+	}
+	.customer-review3-slider {
+		max-width: 400px;
+		margin: 0 auto;
+		padding: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 599px) {
+	.screenshots-carousel .owl-item .item .single-screenshots img {
+		width: auto;
+		height: 480px;
+		margin: 0 auto;
+	}
+	.firstActiveItem .single-screenshots {
+		transform: unset !important;
+		text-align: center;
+	}
+	.screenshots-carousel:after {
+		display: none;
+	}
+	.screentshots2-area .screenshots-carousel .owl-item.active.center .item .single-screenshots {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.screentshots2-area .screenshots-slider {
+		margin: 0px auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	ul.f-social-list li a {
+		font-size: 14px;
+		padding: 9px;
+		height: 35px;
+		width: 35px;
+	}
+	.newsletter-form h4 {
+		font-size: 20px;
+	}
+	.section-title2 h3 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.single-creview2 .screview-text p {
+		font-size: 14px;
+	}
+	.screenshots-carousel .owl-item .item .single-screenshots img {
+		width: 250px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.screenshots-carousel:after {}
+	.firstActiveItem .single-screenshots {
+		transform: unset !important;
+	}
+}
