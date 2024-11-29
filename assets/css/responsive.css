@@ -8,6 +8,7 @@
 		max-width: 400px;
 		margin-left: auto;
 	}
+	
 	.screenshots-carousel:after {
 		transform: translate(-50%, -54%) scale(0.74);
 	}

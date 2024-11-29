@@ -42,9 +42,17 @@
 
 /*  1. Theme default CSS
 /*----------------------------------------*/
-
+ .font{
+	font-family: 'Syne', sans-serif;
+ }
+ .button{
+	border-radius: 40px;
+ }
 .clear {
 	clear: both
+}
+body {
+	font-family: 'Syne', sans-serif;
 }
 
 ::-moz-selection {
