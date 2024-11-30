@@ -1176,9 +1176,12 @@ ul.download-app-btn li {
 
 ul.download-app-btn li a {
 	display: block;
-	padding: 15px 25px;
-	border-radius: 5px;
+	padding: 20px 20px;
+	border-radius: 20px;
 	transition: .5s ease;
+	text-align: center;
+	align-items: center;
+	border-style: dotted;
 }
 
 ul.download-app-btn li a:hover {
